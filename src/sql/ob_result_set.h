@@ -205,6 +205,7 @@ public:
   }
   common::ObIAllocator& get_mem_pool()
   {
+    
     return mem_pool_;
   }
   ObExecContext& get_exec_context()
